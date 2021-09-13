@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Navbar, Sidebar, Footer } from "./components";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Navbar, Sidebar, Footer } from './components';
 import {
   Home,
   SingleProduct,
@@ -11,7 +11,7 @@ import {
   About,
   Products,
   PrivateRoute,
-} from "./pages";
+} from './pages';
 
 function App() {
   return (
@@ -31,9 +31,7 @@ function App() {
         <Route exact path="/products">
           <Products></Products>
         </Route>
-        <Route exact path="/products/:id" children={<SingleProduct />}>
-          <Products></Products>
-        </Route>
+        <Route exact path="/products/:id" children={<SingleProduct />}></Route>
         <Route exact path="/checkout">
           <Checkout></Checkout>
         </Route>
