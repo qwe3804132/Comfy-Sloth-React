@@ -9,7 +9,7 @@ const Stars = ({ stars, reviews }) => {
         {stars >= index + 1 ? (
           <BsStarFill />
         ) : stars >= number ? (
-          <BsStarFill />
+          <BsStarHalf />
         ) : (
           <BsStar />
         )}
@@ -25,7 +25,7 @@ const Stars = ({ stars, reviews }) => {
           {stars >= 1 ? (
             <BsStarFill />
           ) : stars >= 0.5 ? (
-            <BsStarFill />
+            <BsStarHalf />
           ) : (
             <BsStar />
           )}
@@ -37,7 +37,7 @@ const Stars = ({ stars, reviews }) => {
           {stars >= 2 ? (
             <BsStarFill />
           ) : stars >= 1.5 ? (
-            <BsStarFill />
+            <BsStarHalf />
           ) : (
             <BsStar />
           )}
@@ -49,7 +49,7 @@ const Stars = ({ stars, reviews }) => {
           {stars >= 3 ? (
             <BsStarFill />
           ) : stars >= 2.5 ? (
-            <BsStarFill />
+            <BsStarHalf />
           ) : (
             <BsStar />
           )}
@@ -61,7 +61,7 @@ const Stars = ({ stars, reviews }) => {
           {stars >= 4 ? (
             <BsStarFill />
           ) : stars >= 3.5 ? (
-            <BsStarFill />
+            <BsStarHalf />
           ) : (
             <BsStar />
           )}
@@ -73,7 +73,7 @@ const Stars = ({ stars, reviews }) => {
           {stars === 5 ? (
             <BsStarFill />
           ) : stars >= 4.5 ? (
-            <BsStarFill />
+            <BsStarHalf />
           ) : (
             <BsStar />
           )}

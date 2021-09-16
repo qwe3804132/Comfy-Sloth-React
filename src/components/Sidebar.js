@@ -9,7 +9,6 @@ import CartButtons from './CartButtons';
 import { useUserContext } from '../context/user_context';
 
 const Sidebar = () => {
-  const isOpen = false;
   const { isSidebarOpen, closeSidebar } = useProductsContext();
   const { myUser } = useUserContext();
   return (
